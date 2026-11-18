@@ -2,4 +2,32 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Light palette (warm "paper and leather" tones) -->
+    <color name="light_primary">#FF8A5100</color>
+    <color name="light_on_primary">#FFFFFFFF</color>
+    <color name="light_primary_container">#FFFFDCBE</color>
+    <color name="light_on_primary_container">#FF2C1600</color>
+    <color name="light_secondary">#FF725A42</color>
+    <color name="light_on_secondary">#FFFFFFFF</color>
+    <color name="light_secondary_container">#FFFFDCBE</color>
+    <color name="light_on_secondary_container">#FF291806</color>
+    <color name="light_background">#FFFFF8F5</color>
+    <color name="light_on_background">#FF221A14</color>
+    <color name="light_surface">#FFFFF8F5</color>
+    <color name="light_on_surface">#FF221A14</color>
+
+    <!-- Dark palette -->
+    <color name="dark_primary">#FFFFB870</color>
+    <color name="dark_on_primary">#FF4A2800</color>
+    <color name="dark_primary_container">#FF693C00</color>
+    <color name="dark_on_primary_container">#FFFFDCBE</color>
+    <color name="dark_secondary">#FFE1C1A4</color>
+    <color name="dark_on_secondary">#FF402C18</color>
+    <color name="dark_secondary_container">#FF59422C</color>
+    <color name="dark_on_secondary_container">#FFFFDCBE</color>
+    <color name="dark_background">#FF1A120B</color>
+    <color name="dark_on_background">#FFF0DFD4</color>
+    <color name="dark_surface">#FF1A120B</color>
+    <color name="dark_on_surface">#FFF0DFD4</color>
 </resources>
