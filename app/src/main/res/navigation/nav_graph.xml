@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/bookListFragment">
+
+    <fragment
+        android:id="@+id/bookListFragment"
+        android:name="com.milev.bookcatalog.ui.list.BookListFragment"
+        android:label="@string/title_book_list">
+        <action
+            android:id="@+id/action_list_to_detail"
+            app:destination="@id/bookDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bookDetailFragment"
+        android:name="com.milev.bookcatalog.ui.detail.BookDetailFragment"
+        android:label="@string/title_book_detail">
+        <argument
+            android:name="bookId"
+            android:defaultValue="-1L"
+            app:argType="long" />
+    </fragment>
+</navigation>
