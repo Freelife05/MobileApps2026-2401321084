@@ -14,18 +14,17 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimaryContainer"
-        app:title="@string/app_name"
+        android:theme="@style/ThemeOverlay.BookCatalog.Toolbar"
         app:titleTextColor="?attr/colorOnPrimaryContainer" />
 
-    <TextView
-        android:id="@+id/welcomeText"
+    <!-- The screens (fragments) from nav_graph are swapped inside this container. -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/navHostFragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:gravity="center"
-        android:padding="24dp"
-        android:text="@string/welcome_message"
-        android:textAppearance="?attr/textAppearanceBodyLarge"
-        android:textColor="?attr/colorOnBackground" />
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_graph" />
 
 </LinearLayout>

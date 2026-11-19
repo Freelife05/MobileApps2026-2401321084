@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">BookCatalog</string>
-    <string name="welcome_message">Your personal book catalog</string>
+
+    <!-- Book list -->
+    <string name="title_book_list">My books</string>
+    <string name="book_list_empty_title">No books yet</string>
+    <string name="book_list_empty_hint">Tap + to add your first book</string>
+    <string name="add_book">Add book</string>
+
+    <!-- Book detail -->
+    <string name="title_book_detail">Book details</string>
+    <string name="new_book">New book</string>
+    <string name="book_number">Book #%1$d</string>
+    <string name="book_detail_placeholder">Book information will appear here.</string>
 </resources>
